@@ -1,0 +1,25 @@
+{
+    "name": "theyozz/api-project",
+    "description": "Rest API project",
+    "authors": [
+      {
+        "name": "Theovm",
+        "email": "theomaurin875@gmail.com"
+      }
+    ],
+    "autoload": {
+      "psr-4": {
+        "App\\": "src/"
+      }
+    },
+    "scripts": {
+      "start": "php -S localhost:8006 -t public/ public/index.php"
+    },
+    "config": {
+      "process-timeout": 0
+    },
+    "require": {
+      "symfony/dotenv": "^6.2"
+    }
+  }
+  
